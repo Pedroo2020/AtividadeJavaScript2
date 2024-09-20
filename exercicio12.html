@@ -1,0 +1,40 @@
+ 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+
+    <script>
+
+        var listaidade = [17, 20, 69, 39, 80]
+        var listaaltura = [1.78, 1.75, 1.57, 1.88, 1.67]
+        var soma = 0
+        var media = 0
+        var alunos = 0
+
+        for(posicao in listaaltura){
+            soma = soma + (listaaltura[posicao])
+        }
+ c
+        media = soma / listaaltura.length
+
+        alert(media)
+
+        for(posicao in listaidade){
+            if(listaidade[posicao] > 13 && listaaltura[posicao] < media) {
+                alunos = alunos + 1
+            }
+        }
+
+
+        alert(alunos)
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
